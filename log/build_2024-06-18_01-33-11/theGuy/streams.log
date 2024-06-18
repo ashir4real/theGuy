@@ -1,0 +1,45 @@
+[0.084s] Invoking command in '/home/vboxuser/ws_again/build/theGuy': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/vboxuser/ws_again/src/theGuy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_again/install/theGuy
+[0.855s] -- The C compiler identification is GNU 11.4.0
+[1.536s] -- The CXX compiler identification is GNU 11.4.0
+[1.615s] -- Detecting C compiler ABI info
+[2.216s] -- Detecting C compiler ABI info - done
+[2.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.368s] -- Detecting C compile features
+[2.375s] -- Detecting C compile features - done
+[2.417s] -- Detecting CXX compiler ABI info
+[3.064s] -- Detecting CXX compiler ABI info - done
+[3.168s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.170s] -- Detecting CXX compile features
+[3.178s] -- Detecting CXX compile features - done
+[3.223s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[4.817s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.355s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.753s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.135s] WARNING: Package name "theGuy" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[6.362s] -- Added test 'lint_cmake' to check CMake code style
+[6.373s] -- Added test 'xmllint' to check XML markup files
+[6.394s] -- Configuring done
+[6.424s] -- Generating done
+[6.436s] -- Build files have been written to: /home/vboxuser/ws_again/build/theGuy
+[6.476s] Invoked command in '/home/vboxuser/ws_again/build/theGuy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/vboxuser/ws_again/src/theGuy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_again/install/theGuy
+[6.478s] Invoking command in '/home/vboxuser/ws_again/build/theGuy': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ws_again/build/theGuy -- -j1 -l1
+[6.750s] Invoked command in '/home/vboxuser/ws_again/build/theGuy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ws_again/build/theGuy -- -j1 -l1
+[6.963s] Invoking command in '/home/vboxuser/ws_again/build/theGuy': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ws_again/build/theGuy
+[7.026s] -- Install configuration: ""
+[7.032s] -- Execute custom install script
+[7.036s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/ament_index/resource_index/package_run_dependencies/theGuy
+[7.092s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/ament_index/resource_index/parent_prefix_path/theGuy
+[7.149s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/environment/ament_prefix_path.sh
+[7.224s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/environment/ament_prefix_path.dsv
+[7.274s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/environment/path.sh
+[7.341s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/environment/path.dsv
+[7.421s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/local_setup.bash
+[7.481s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/local_setup.sh
+[7.549s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/local_setup.zsh
+[7.622s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/local_setup.dsv
+[7.689s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/package.dsv
+[7.756s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/ament_index/resource_index/packages/theGuy
+[7.833s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/cmake/theGuyConfig.cmake
+[7.894s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/cmake/theGuyConfig-version.cmake
+[7.950s] -- Symlinking: /home/vboxuser/ws_again/install/theGuy/share/theGuy/package.xml
+[8.023s] Invoked command in '/home/vboxuser/ws_again/build/theGuy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ws_again/build/theGuy

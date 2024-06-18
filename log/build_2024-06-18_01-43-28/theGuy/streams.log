@@ -1,0 +1,28 @@
+[0.069s] Invoking command in '/home/vboxuser/ws_again/build/theGuy': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/vboxuser/ws_again/src/theGuy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_again/install/theGuy
+[0.228s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.552s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.937s] WARNING: Package name "theGuy" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.110s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.110s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.115s] -- Added test 'lint_cmake' to check CMake code style
+[2.126s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.137s] -- Added test 'xmllint' to check XML markup files
+[2.146s] -- Configuring done
+[2.172s] -- Generating done
+[2.185s] -- Build files have been written to: /home/vboxuser/ws_again/build/theGuy
+[2.223s] Invoked command in '/home/vboxuser/ws_again/build/theGuy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/vboxuser/ws_again/src/theGuy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ws_again/install/theGuy
+[2.224s] Invoking command in '/home/vboxuser/ws_again/build/theGuy': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ws_again/build/theGuy -- -j1 -l1
+[2.537s] Invoked command in '/home/vboxuser/ws_again/build/theGuy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ws_again/build/theGuy -- -j1 -l1
+[2.786s] Invoking command in '/home/vboxuser/ws_again/build/theGuy': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ws_again/build/theGuy
+[2.854s] -- Install configuration: ""
+[2.860s] -- Execute custom install script
+[2.862s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[2.862s]   ament_cmake_symlink_install_directory() can't find
+[2.863s]   '/home/vboxuser/ws_again/src/theGuy/launch'
+[2.863s] Call Stack (most recent call first):
+[2.863s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[2.864s]   cmake_install.cmake:46 (include)
+[2.864s] 
+[2.865s] [0m
+[2.878s] Invoked command in '/home/vboxuser/ws_again/build/theGuy' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ws_again/build/theGuy
